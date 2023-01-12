@@ -5,7 +5,7 @@ def add_contacts(choice, file):
             cl.write(input('Введите фамилию: ') + '\n')
             cl.write(input('Введите имя: ') + '\n')
             cl.write(input('Введите телефон: ') + '\n')
-            cl.write(input('Введите фамилию: '))
+            cl.write(input('Введите описание: '))
             
     if choice == 2:
         with open(file, 'a', encoding="utf-8") as c2:
@@ -13,4 +13,4 @@ def add_contacts(choice, file):
             c2.write(input('Введите фамилию: ') + ', ')
             c2.write(input('Введите имя: ') + ', ')
             c2.write(input('Введите телефон: ') + ', ')
-            c2.write(input('Введите фамилию: '))
+            c2.write(input('Введите описание: '))
